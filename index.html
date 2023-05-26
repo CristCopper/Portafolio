@@ -5,20 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Textos</title>
-</head>
-<body>
-    <div class="container"></div>
-    <div class="encriptar">
-        <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Ingresa el texto o palabra aquí"></textarea>
-    </div>
-    <div class="terminos">
-        <p>Solo letras minúsculas y sin acentos.</p>
-    </div>
-    <div class="botones">
-        <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
-        <button type="button" class="btn.dedencriptar" onclick="desencriptar">Desencriptar</button>
-    </div>
-    
-</body>
-<script src="index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="encriptar">
+                <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Ingresa el texto o palabra aquí">    
+                </textarea>
+            </div>
+            <div class="terminos">
+                <p>Solo letras minúsculas y sin acentos.</p>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+                <button type="button" class="btn.   dedencriptar"       onclick="desencriptar">Desencriptar</button>
+            </div>
+            </div>
+            <div class="encriptado">
+                <img src="" alt="" id="Jake el perro">
+                <div class="mensaje-encriptado" id="mensaje-encriptado">
+                 <h2 id="titulo-mensaje">Ningun mensaje encontrado</h2>
+                <p id="parrafo">ingres el texto que desea encriptar o desencriptar</p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
 </html>
