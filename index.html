@@ -10,22 +10,31 @@
     <body>
         <div class="container">
             <div class="encriptar">
-                <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Ingresa el texto o palabra aquí">    
-                </textarea>
-            </div>
+                <textarea 
+                name="texto" 
+                class="texto" 
+                id="texto" 
+                cols="30" 
+                rows="10" 
+                placeholder="Ingresa el texto aquí"
+                ></textarea>
+
             <div class="terminos">
                 <p>Solo letras minúsculas y sin acentos.</p>
             </div>
             <div class="botones">
                 <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
-                <button type="button" class="btn.   dedencriptar"       onclick="desencriptar">Desencriptar</button>
+                <input 
+                type="button" class="btn-desencriptar"       value="Desencriptar"
+                onclick="desencriptar"
+                />
             </div>
             </div>
             <div class="encriptado">
-                <img src="" alt="" id="Jake el perro">
+                <img src="Imagenes/Jake de detective_ Hora de aventura_.jfif" alt="" id="Jake el perro">
                 <div class="mensaje-encriptado" id="mensaje-encriptado">
                  <h2 id="titulo-mensaje">Ningun mensaje encontrado</h2>
-                <p id="parrafo">ingrese el texto que desea encriptar o desencriptar</p>
+                <p id="parrafo">Ingrese el texto que desea encriptar o desencriptar</p>
                 </div>
             </div>
         </div>
