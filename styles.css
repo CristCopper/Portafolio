@@ -8,6 +8,11 @@
     width: 100vw;
     height: 100vh;
     background-color: #abdbd9;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 0, 0.5),
+      rgba(0, 0, 255, 0.5)
+    ), url("img/cara.png");;
 }
 
 .texto{
@@ -150,7 +155,7 @@
     font-size: 24px;
     line-height: 120%;
     text-align: center;
-    color: #10F648;
+    color: #f7e70c;
   }
 
   .mensaje-encriptado p {
