@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Textos</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     </head>
     <body>
         <div class="container">
+            <img src="img/Logo.png" id="logo"/>
             <div class="encriptar">
                 <textarea 
                 name="texto" 
@@ -31,10 +33,13 @@
             </div>
             </div>
             <div class="encriptado">
-                <img src="img/Jake de detective_ Hora de aventura_.jfif" alt="" id="JakePerro">
+                <img src="img/jake2.png" alt="" id="JakePerro">
                 <div class="mensaje-encriptado" id="mensaje-encriptado">
                  <h2 id="titulo-mensaje">Ningun mensaje encontrado</h2>
                 <p id="parrafo">Ingrese el texto que desea encriptar o desencriptar</p>
+                <div class="botonCopiar">
+                    <button class="btn-copiar" type="button" onclick="copiar()">Copiar</button>
+                </div>
                 </div>
             </div>
         </div>
