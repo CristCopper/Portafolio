@@ -50,8 +50,9 @@ function encriptar() {
   }
 
   function copiar(){
-    let texto = document.getElementById("texto").value();
-    navigator.clipboard.writeText(texto.innerHTML);
+    let texto = document.getElementById("texto");
+    texto.value;
+    navigator.clipboard.writeText(texto.value);
     console.log("estoycopiando")
     // texto.setAttribute();
     // document.body.appendChild("texto");
