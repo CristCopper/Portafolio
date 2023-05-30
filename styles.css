@@ -15,6 +15,13 @@
     ), url("img/cara.png");;
 }
 
+#logo{
+  position: relativa;
+  margin-top: 4%;
+  margin-left: 4%;
+  width: 130px;
+}
+
 .texto{
     position: absolute;
     width: 42%;
@@ -27,7 +34,9 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-    background-color: #a6cfd5;
+    background-image: url("img/images.png");
+    contain: solid;
+    contain: #000;
 }
 .texto::placeholder{
     color: #0a3871
@@ -56,11 +65,11 @@
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 150%;
     
-    color: #495057;
-    opacity: 0.8;
+    color: #fff;
+    opacity: 1;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -84,6 +93,7 @@
    gap: 8px;
    width: 25%;
    background-color: #0a3871;
+   border: 1px solid #000;
    border-radius: 24px;
    font-family: "inter";
    font-size: 18px;
@@ -114,6 +124,40 @@
     left: 10px;
 }
 
+.botonCopiar{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1% 0;
+  position: absolute;
+  width: 30%;
+  left: 150px;
+  top: 130px;
+}
+
+.btn-copiar {
+  align-items: center;
+   justify-content: center;
+   padding: 13px;
+   gap: auto;
+   width: 200%;
+   background-color: #0a38;
+   border: 1px solid #000;
+   border-radius: 5px;
+   font-family: "inter";
+   font-size: 15px;
+   line-height: 5px;
+   text-align: center;
+   color: #fff;
+}
+
+.btn-copiar:hover{
+  margin: 2%;
+}
+.btn-copiar:active,:focus{
+  
+}
+
 .btn-desencriptar:hover,
 .btn-encriptar:hover {
   margin: 0.3%;
@@ -129,7 +173,7 @@
   height: 90%;
   left: 60%;
   top: 5%;
-  background: #3a6ea5;
+  background-image: url(img/fondo2.png);
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   border-radius: 32px;
 }
@@ -155,7 +199,7 @@
     font-size: 24px;
     line-height: 120%;
     text-align: center;
-    color: #f7e70c;
+    color: #fff;
   }
 
   .mensaje-encriptado p {
